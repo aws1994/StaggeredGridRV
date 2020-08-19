@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
         adapter = new StaggeredRecyclerAdapter(this,lst);
         staggeredRv.setAdapter(adapter);
+        staggeredRv.addItemDecoration(new ItemDecorator(2,8,true));
 
 
 
